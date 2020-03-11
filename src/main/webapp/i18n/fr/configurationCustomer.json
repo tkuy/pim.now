@@ -1,0 +1,25 @@
+{
+  "pimnowApp": {
+    "configurationCustomer": {
+      "home": {
+        "title": "ConfigurationCustomers",
+        "createLabel": "Modifier les configurations des plateformes intégrations",
+        "createOrEditLabel": "Créer ou éditer un Configuration Customer",
+        "search": "Recherche pour Configuration Customer",
+        "notFound": "Aucun Configuration Customer trouvé"
+      },
+      "created": "La configuration a été mise à jour",
+      "updated": "La configuration a été mise à jour",
+      "deleted": "Le Configuration Customer avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Configuration Customer {{ id }} ?"
+      },
+      "detail": {
+        "title": "Configuration Customer"
+      },
+      "urlPrestashop": "Url Prestashop",
+      "apiKeyPrestashop": "Api Key Prestashop",
+      "customer": "Customer"
+    }
+  }
+}

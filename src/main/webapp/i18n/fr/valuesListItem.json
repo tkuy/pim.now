@@ -1,0 +1,24 @@
+{
+  "pimnowApp": {
+    "valuesListItem": {
+      "home": {
+        "title": "ValuesListItems",
+        "createLabel": "Créer un nouveau Values List Item",
+        "createOrEditLabel": "Créer ou éditer un Values List Item",
+        "search": "Recherche pour Values List Item",
+        "notFound": "Aucun Values List Item trouvé"
+      },
+      "created": "Un nouveau Values List Item a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Values List Item avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Values List Item avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Values List Item {{ id }} ?"
+      },
+      "detail": {
+        "title": "Values List Item"
+      },
+      "value": "Value",
+      "valuesList": "Values List"
+    }
+  }
+}

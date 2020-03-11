@@ -1,0 +1,204 @@
+{
+  "global": {
+    "title": "PIMNOW",
+    "tooltip": {
+      "see": "See details",
+      "edit": "Edit",
+      "delete": "Delete",
+      "deactivate": "Deactivate the user",
+      "activate": "Activate the user",
+      "duplicate": "Duplicate"
+    },
+    "roles": {
+      "admin": "Technical administrator",
+      "adf": "Fonctional administrator",
+      "user": "User"
+    },
+    "attributTypes": {
+      "number": "Number",
+      "text": "Text",
+      "multiple": "Multiple values",
+      "ressource": "Document"
+    },
+    "browsehappy": "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/?locale=en\">upgrade your browser</a> to improve your experience.",
+    "menu": {
+      "sidebar": {
+        "product": "Product",
+        "customer": "Customers",
+        "productList": "Products list",
+        "addProduct": "Add a product",
+        "importexport": "Mass import",
+        "configuration_integration": "Integration configuration",
+        "templatesList": "List of import templates",
+        "categories": "Categories",
+        "families": "Families",
+        "ROLE_USER": "User",
+        "ROLE_ADMIN": "Tech Admin",
+        "ROLE_ADMIN_FONC": "Functional Admin",
+        "users": "Users",
+        "hello": "Hello {{ fname }} {{lname}}<br />({{rank}})",
+        "prestashop": "Prestashop"
+      },
+      "home": "Home",
+      "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
+      "entities": {
+        "main": "Entities",
+        "family": "Family",
+        "attribut": "Attribut",
+        "category": "Category",
+        "product": "Product",
+        "attributValue": "Attribut Value",
+        "userExtra": "User Extra",
+        "customer": "Customer",
+        "workflow": "Workflow",
+        "workflowStep": "Workflow Step",
+        "mapping": "Mapping",
+        "association": "Association",
+        "configurationCustomer": "Configuration Customer",
+        "valuesList": "Values List",
+        "valuesListItem": "Values List Item",
+        "workflowState": "Workflow State",
+        "attributValuesList": "Attribut Values List",
+        "prestashopProduct": "Prestashop Product",
+        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
+      },
+      "account": {
+        "main": "Account",
+        "settings": "Settings",
+        "password": "Password",
+        "sessions": "Sessions",
+        "login": "Sign in",
+        "logout": "Sign out",
+        "register": "Register"
+      },
+      "admin": {
+        "main": "Administration",
+        "userManagement": "User management",
+        "tracker": "User tracker",
+        "metrics": "Metrics",
+        "health": "Health",
+        "configuration": "Configuration",
+        "logs": "Logs",
+        "audits": "Audits",
+        "apidocs": "API",
+        "database": "Database",
+        "jhipster-needle-menu-add-admin-element": "JHipster will add additional menu entries here (do not translate!)"
+      },
+      "language": "Language"
+    },
+    "form": {
+      "username.label": "Username",
+      "username.placeholder": "Your username",
+      "currentpassword.label": "Current password",
+      "currentpassword.placeholder": "Current password",
+      "newpassword.label": "New password",
+      "newpassword.placeholder": "New password",
+      "confirmpassword.label": "New password confirmation",
+      "confirmpassword.placeholder": "Confirm the new password",
+      "email.label": "Email",
+      "email.placeholder": "Your email"
+    },
+    "messages": {
+      "info": {
+        "authenticated": {
+          "prefix": "If you want to ",
+          "link": "sign in",
+          "suffix": ", you can try the default accounts:<br/>- Administrator (login=\"admin\" and password=\"admin\") <br/>- User (login=\"user\" and password=\"user\")."
+        },
+        "register": {
+          "noaccount": "You don't have an account yet?",
+          "link": "Register a new account"
+        }
+      },
+      "error": {
+        "dontmatch": "The password and its confirmation do not match!"
+      },
+      "validate": {
+        "newpassword": {
+          "required": "Your password is required.",
+          "minlength": "Your password is required to be at least 4 characters.",
+          "maxlength": "Your password cannot be longer than 50 characters.",
+          "strength": "Password strength:"
+        },
+        "confirmpassword": {
+          "required": "Your confirmation password is required.",
+          "minlength": "Your confirmation password is required to be at least 4 characters.",
+          "maxlength": "Your confirmation password cannot be longer than 50 characters."
+        },
+        "email": {
+          "required": "Your email is required.",
+          "invalid": "Your email is invalid.",
+          "minlength": "Your email is required to be at least 5 characters.",
+          "maxlength": "Your email cannot be longer than 50 characters."
+        }
+      }
+    },
+    "field": {
+      "id": "ID"
+    },
+    "ribbon": {
+      "dev": "Development"
+    },
+    "item-count": "Showing {{first}} - {{second}} of {{total}} items."
+  },
+  "entity": {
+    "action": {
+      "addblob": "Add blob",
+      "addimage": "Add image",
+      "back": "Back",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "edit": "Edit",
+      "open": "Open",
+      "save": "Save",
+      "import": "Import",
+      "view": "View",
+      "duplicate": "Duplicate",
+      "activate": "Activate",
+      "deactivate": "Deactivate"
+    },
+    "detail": {
+      "field": "Field",
+      "value": "Value"
+    },
+    "delete": {
+      "title": "Confirm delete operation"
+    },
+    "validation": {
+      "required": "This field is required.",
+      "minlength": "This field is required to be at least {{ min }} characters.",
+      "maxlength": "This field cannot be longer than {{ max }} characters.",
+      "min": "This field should be at least {{ min }}.",
+      "max": "This field cannot be more than {{ max }}.",
+      "minbytes": "This field should be at least {{ min }} bytes.",
+      "maxbytes": "This field cannot be more than {{ max }} bytes.",
+      "pattern": "This field should follow pattern for {{ pattern }}.",
+      "number": "This field should be a number.",
+      "datetimelocal": "This field should be a date and time.",
+      "patternLogin": "This field can only contain letters, digits and e-mail addresses.",
+      "failedPrestashopUpdate": "A product cannot be updated on Prestashop",
+      "failedPrestashopUpdateImage": "A product image cannot be updated on Prestashop"
+    }
+  },
+  "error": {
+    "internalServerError": "Internal server error",
+    "server.not.reachable": "Server not reachable",
+    "url.not.found": "Not found",
+    "NotNull": "Field {{ fieldName }} cannot be empty!",
+    "Size": "Field {{ fieldName }} does not meet min/max size requirements!",
+    "userexists": "Login name already used!",
+    "emailexists": "Email is already in use!",
+    "idexists": "A new {{ entityName }} cannot already have an ID",
+    "idnull": "Invalid ID",
+    "functionalidexists": "The functional ID already exists !",
+    "customerrequired": "You must be linked to a client to do this action",
+    "nonexistingcustomer": "You are trying to deactivate a client that does not exist",
+    "nonexistinguser": "You are trying to activate a user that does not exist",
+    "activateuserwithdeactivatecustomer": "You cannot activate a user whose client is deactivated",
+    "noconfiguration": "No configuration for integration have been set, please contact your fonctional administrator.",
+    "nopriceorstock": "Attribut price or stock not existing, please contact your fonctional administrator.",
+    "alreadyexistingmapping": "A mapping with this functional id already exists.",
+    "alreadyexistingcategory": "A category with this functional id already exists."
+  },
+  "footer": "This is your footer"
+}

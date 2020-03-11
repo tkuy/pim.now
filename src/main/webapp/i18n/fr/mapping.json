@@ -1,0 +1,41 @@
+{
+  "pimnowApp": {
+    "mapping": {
+      "error": {
+        "importDouble": "Il y a un doublon dans le fichier excel",
+        "fields": "Tous les champs doivent être complétés",
+        "error": "Toutes les colonnes de gauche ainsi que les colonnes de droite doivent être uniques. Aucune colonne ne doit pointer dans le vide.",
+        "empty": "Vous devez au moins ajouter un attribut au modèle d'import."
+      },
+      "home": {
+        "title": "Modèles d'import",
+        "createLabel": "Créer un nouveau modèle d'import",
+        "createOrEditLabel": "Dupliquer un modèle d'import",
+        "edit": "Editer un modèle d'import",
+        "info": "Info du modèle d'import",
+        "search": "Recherche de modèles d'import",
+        "notFound": "Aucun modèle d'import trouvé"
+      },
+      "created": "Un nouveau modèle d'import a été créé",
+      "updated": "Le modèle d'import a été mis à jour",
+      "deleted": "Le modèle d'import a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer ce modèle d'import ?"
+      },
+      "detail": {
+        "title": "Modèles d'import"
+      },
+      "idF": "Id Fonctionnel",
+      "name": "Nom",
+      "description": "Description",
+      "separator": "Séparateur de valeurs multiples",
+      "customer": "Client",
+      "associations": "Associations",
+      "labelFile": "Header provenant d'un fichier Excel",
+      "rootButton": "Choisir les attributs",
+      "headerExcel": "Entête Excel",
+      "bdd": "Attribut correspondant",
+      "freeAttribute": "Ajouter un attribut libre"
+    }
+  }
+}

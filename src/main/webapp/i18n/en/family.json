@@ -1,0 +1,54 @@
+{
+  "pimnowApp": {
+    "familyVM": {
+      "idF": "Functional ID",
+      "attributes": "attributes"
+    },
+    "family": {
+      "attributesTable": {
+        "idf": "Functional ID",
+        "name": "Name",
+        "type": "Type"
+      },
+      "home": {
+        "tree": "Families tree",
+        "attributes": "Family's attributes",
+        "title": "Families",
+        "createLabel": "Create a new Family",
+        "editLabel": "Edit the Family",
+        "deleteLabel": "Delete the Family",
+        "search": "Search for Family",
+        "notFound": "No Families found",
+        "currentAttributs": "Family's attributes",
+        "addExistingAttributs": "Add existing attributes",
+        "addNewAttributs": "Create the attributes",
+        "selectionParent": "Select the parent family",
+        "treeFamily": "The tree of the families"
+      },
+      "created": "The family {{ param }} has been created",
+      "updated": "The family {{ param }} has been updated",
+      "deleted": "The family {{ param }} has been deleted",
+      "delete": {
+        "question": "Are you sure you want to delete the family {{ name }}?"
+      },
+      "detail": {
+        "title": "Family"
+      },
+      "idF": "Functional ID",
+      "nom": "Name",
+      "family": "Family",
+      "successors": "Successors",
+      "predecessor": "Predecessor",
+      "customer": "Customer",
+      "attribute": "Attribute",
+      "attributechoice": "Choice of the attribute",
+      "error": {
+        "functionalidexists": "The functional ID is already taken by another family !",
+        "customerrequired": "You must be linked to a client to do this action"
+      },
+      "familyAnotherChoice": "Choose another family",
+      "familyChoiceValidation": "Choose this family",
+      "addAttributs": "Add existing attributes"
+    }
+  }
+}

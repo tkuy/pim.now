@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <!--
+        Added the constraints for entity Family.
+    -->
+    <changeSet id="20200203102635-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="family_id"
+                                 baseTableName="family"
+                                 constraintName="fk_family_family_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="family"/>
+
+        <addForeignKeyConstraint baseColumnNames="predecessor_id"
+                                 baseTableName="family"
+                                 constraintName="fk_family_predecessor_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="family"/>
+
+        <addForeignKeyConstraint baseColumnNames="customer_id"
+                                 baseTableName="family"
+                                 constraintName="fk_family_customer_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="customer"/>
+
+        <addForeignKeyConstraint baseColumnNames="family_id"
+                                 baseTableName="family_attribute"
+                                 constraintName="fk_family_attribute_family_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="family"/>
+
+        <addForeignKeyConstraint baseColumnNames="attribute_id"
+                                 baseTableName="family_attribute"
+                                 constraintName="fk_family_attribute_attribute_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="attribut"/>
+        
+    </changeSet>
+</databaseChangeLog>

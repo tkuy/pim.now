@@ -1,0 +1,27 @@
+{
+  "pimnowApp": {
+    "attribut": {
+      "home": {
+        "title": "Attributes",
+        "createLabel": "Create a new attribute",
+        "createOrEditLabel": "Create or edit a Attribut",
+        "notFound": "No attributes found"
+      },
+      "created": "A new attribute is created with identifier {{ param }}",
+      "updated": "An attribute is updated with identifier {{ param }}",
+      "deleted": "A attribute is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete attribute {{ id }}?"
+      },
+      "detail": {
+        "title": "Attribute"
+      },
+      "nom": "Name of the attribute",
+      "type": "Type",
+      "customer": "Customer",
+      "family": "Family",
+      "idF": "Functional ID",
+      "completeHelper": "You have to give every information of the attribute"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <!--
+        Added the constraints for entity AttributValuesList.
+    -->
+    <changeSet id="20200203102650-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="attribut_id"
+                                 baseTableName="attribut_values_list"
+                                 constraintName="fk_attribut_values_list_attribut_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="attribut"/>
+
+        <addForeignKeyConstraint baseColumnNames="values_list_id"
+                                 baseTableName="attribut_values_list"
+                                 constraintName="fk_attribut_values_list_values_list_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="values_list"/>
+
+    </changeSet>
+</databaseChangeLog>

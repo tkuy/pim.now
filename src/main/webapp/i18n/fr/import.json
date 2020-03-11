@@ -1,0 +1,14 @@
+{
+  "import": {
+    "title": "Importer des produits",
+    "loading": "Chargement...",
+    "mapping": "Mapping *",
+    "file": "Fichier à importer * :",
+    "extension": "L'extension du fichier doit être .xlsx",
+    "success": "L'import ou la mise à jour des produits a été réalisée. Veuillez prendre connaissance du fichier de compte rendu de l'import afin de vérifier si des produits n'ont pas pu être importés et la raison de l'incident.",
+    "waiting": {
+      "title": "Import des produits en cours...",
+      "content": "L'import des produits est en cours de réalisation, cela peut prendre quelques minutes. Veuillez ne pas quitter la page durant ce temps."
+    }
+  }
+}

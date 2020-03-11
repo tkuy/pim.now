@@ -1,0 +1,25 @@
+{
+  "pimnowApp": {
+    "attributValue": {
+      "home": {
+        "title": "AttributValues",
+        "createLabel": "Créer un nouveau Attribut Value",
+        "createOrEditLabel": "Créer ou éditer un Attribut Value",
+        "search": "Recherche pour Attribut Value",
+        "notFound": "Aucun Attribut Value trouvé"
+      },
+      "created": "Un nouveau Attribut Value a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Attribut Value avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Attribut Value avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Attribut Value {{ id }} ?"
+      },
+      "detail": {
+        "title": "Attribut Value"
+      },
+      "value": "Value",
+      "attribut": "Attribut",
+      "product": "Product"
+    }
+  }
+}

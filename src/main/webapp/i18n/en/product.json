@@ -1,0 +1,68 @@
+{
+  "pimnowApp": {
+    "productVM": {
+      "idF": "Functional ID"
+    },
+    "product": {
+      "home": {
+        "title": "Products",
+        "createLabel": "Create a new product",
+        "createOrEditLabel": "Create or edit a product",
+        "editProduct": "Edit the product",
+        "search": "Search for product",
+        "notFound": "No products found",
+        "selectionCategory": "Select",
+        "seeCategories": "See categories",
+        "integrationTitle": "Manage integration",
+        "removeIntegrateSelection": "Remove selection from Prestashop",
+        "integrateSelection": "Integrate selection to Prestashop",
+        "exportSelection": "Export the selection",
+        "cannotIntegrate": "Please integrate a maximum of 30 products at the same time",
+        "cannotIntegrateSupp": "Please remove a maximum of 30 products maximum at the same time"
+      },
+      "export": {
+        "title": "Export a selection of products",
+        "numberProducts": "Number of products to export : {{ number }}",
+        "mapping": "Export model *",
+        "submit": "Export",
+        "cancel": "Cancel",
+        "success": "Export has been completed",
+        "waiting": {
+          "title": "Exporting products...",
+          "content": "Don't leave this page, export of products is in progress. Please wait..."
+        }
+      },
+      "created": "The new product {{ param }} is created",
+      "updated": "The product {{ param }} is updated",
+      "deleted": "The product {{ param }} is deleted",
+      "delete": {
+        "question": "Are you sure you want to delete the product {{ nom }}?"
+      },
+      "detail": {
+        "title": "Product"
+      },
+      "detail": "Product detail",
+      "idF": "Functional ID",
+      "nom": "Name",
+      "description": "Description",
+      "family": "Family",
+      "families": "Families",
+      "category": "Category",
+      "categories": "Categorie(s)",
+      "informationsFamily": "Family related information",
+      "selectionWorkflows": "Workflows",
+      "addWorkflowHelper": "Add the workflows where your product will go through",
+      "familyAnotherChoice": "Choose another family",
+      "familyChoiceValidation": "Choose this family",
+      "categoryChoice": "Choose this category",
+      "importHelper": "The extension supported are .jpg, .jpeg, .png, .pdf, .xlsx",
+      "add": "Add",
+      "invalidNumberFormat": "The value is not a number",
+      "selectAll": "Select all",
+      "deselectAll": "Deselect all",
+      "numberProduct": "Number of selected products : {{ number }}",
+      "features": "Product features",
+      "searchHelper": "Search on the fonctional ID, name, description, name of the family or category. You can search a product with the values of attributes. To do so, type 'name of attribute=value of the attribute'. Each of the queries are separated by semicolon."
+    }
+  }
+}

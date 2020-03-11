@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <!--
+        Added the constraints for entity WorkflowStep.
+    -->
+    <changeSet id="20200203102643-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="workflow_id"
+                                 baseTableName="workflow_step"
+                                 constraintName="fk_workflow_step_workflow_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="workflow"/>
+
+        <addForeignKeyConstraint baseColumnNames="successor_id"
+                                 baseTableName="workflow_step"
+                                 constraintName="fk_workflow_step_successor_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="workflow_step"/>
+
+        <addForeignKeyConstraint baseColumnNames="workflow_state_id"
+                                 baseTableName="workflow_step"
+                                 constraintName="fk_workflow_step_workflow_state_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="workflow_state"/>
+
+    </changeSet>
+</databaseChangeLog>

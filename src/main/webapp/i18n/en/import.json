@@ -1,0 +1,14 @@
+{
+  "import": {
+    "title": "Import products",
+    "loading": "Loading...",
+    "mapping": "Mapping *",
+    "file": "File * : ",
+    "extension": "The extension of the file must be equals to .xlsx",
+    "success": "The import or update of the products has been carried out. Please read the import report file to check if products could not be imported and the reason for the incident.",
+    "waiting": {
+      "title": "Importing products...",
+      "content": "Products are being imported, this may take a few minutes. Please don't leave this page."
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "pimnowApp": {
+    "prestashopProduct": {
+      "waiting": {
+        "title": "Currently integrating products on Prestashop...",
+        "content": "Products integration on Prestashop is underway. Please wait..."
+      },
+      "waitingRemove": {
+        "title": "Currently removing selected integrated products on Prestashop...",
+        "content": "Removal of integrated products on Prestashop in progress. Please wait..."
+      },
+      "integrated": "Products have been integrated on Prestashop",
+      "integratedRemoved": "Products have been deleted from Prestashop",
+      "home": {
+        "title": "Prestashop Products",
+        "createLabel": "Create a new Prestashop Product",
+        "createOrEditLabel": "Create or edit a Prestashop Product",
+        "search": "Search for Prestashop Product",
+        "notFound": "No Prestashop Products found"
+      },
+      "created": "A new Prestashop Product is created with identifier {{ param }}",
+      "updated": "A Prestashop Product is updated with identifier {{ param }}",
+      "deleted": "A Prestashop Product is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Prestashop Product {{ id }}?"
+      },
+      "detail": {
+        "title": "Prestashop Product"
+      },
+      "prestashopProductId": "Prestashop Product Id",
+      "productPim": "Product Pim"
+    }
+  }
+}

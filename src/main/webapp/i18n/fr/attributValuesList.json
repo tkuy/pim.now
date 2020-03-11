@@ -1,0 +1,24 @@
+{
+  "pimnowApp": {
+    "attributValuesList": {
+      "home": {
+        "title": "AttributValuesLists",
+        "createLabel": "Créer un nouveau Attribut Values List",
+        "createOrEditLabel": "Créer ou éditer un Attribut Values List",
+        "search": "Recherche pour Attribut Values List",
+        "notFound": "Aucun Attribut Values List trouvé"
+      },
+      "created": "Un nouveau Attribut Values List a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Attribut Values List avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Attribut Values List avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Attribut Values List {{ id }} ?"
+      },
+      "detail": {
+        "title": "Attribut Values List"
+      },
+      "attribut": "Attribut",
+      "valuesList": "Values List"
+    }
+  }
+}

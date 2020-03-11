@@ -1,0 +1,12 @@
+{
+  "pimnowApp": {
+    "AttributType": {
+      "null": "",
+      "TEXT": "Texte",
+      "RESSOURCE": "Document",
+      "VALUES_LIST": "Liste de valeurs",
+      "MULTIPLE_VALUE": "Valeurs multiples",
+      "NUMBER": "Nombres"
+    }
+  }
+}

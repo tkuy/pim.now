@@ -1,0 +1,39 @@
+{
+  "home": {
+    "notLogged": "Vous n'êtes pas connecté, veuillez vous connecter pour accéder à votre dashboard.",
+    "title": "Bienvenue, Java Hipster !",
+    "subtitle": "Ceci est votre page d'accueil",
+    "dashboard": "Tableau de bord",
+    "logged": {
+      "message": "Vous êtes connecté en tant que \"{{username}}\"."
+    },
+    "question": "Si vous avez des questions à propos de JHipster :",
+    "link": {
+      "homepage": "Page d'accueil de JHipster",
+      "stackoverflow": "JHipster sur Stack Overflow",
+      "bugtracker": "JHipster bug tracker",
+      "chat": "JHipster public chat room",
+      "follow": "Suivez @java_hipster sur Twitter"
+    },
+    "like": "Si vous aimez JHipster, donnez nous une étoile sur",
+    "github": "GitHub ",
+    "chart1": {
+      "title": "Stats des produits",
+      "legend1": "Produits créés",
+      "legend2": "Produits supprimés",
+      "noproduct": "Aucun produit"
+    },
+    "chart2": {
+      "title": "Stats utilisateurs",
+      "legend1": "Utilisateurs actifs",
+      "legend2": "Utilisateurs inactifs"
+    },
+    "chart3": {
+      "title": "Stats clients",
+      "legend1": "Clients actifs",
+      "legend2": "Clients inactifs"
+    },
+    "customer": "Vous travaillez pour",
+    "integratedTitle": "Nombre de produits intégrés"
+  }
+}

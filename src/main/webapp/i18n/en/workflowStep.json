@@ -1,0 +1,30 @@
+{
+  "pimnowApp": {
+    "workflowStep": {
+      "home": {
+        "title": "Workflow Steps",
+        "createLabel": "Create a new Workflow Step",
+        "createOrEditLabel": "Create or edit a Workflow Step",
+        "search": "Search for Workflow Step",
+        "notFound": "No Workflow Steps found"
+      },
+      "created": "A new Workflow Step is created with identifier {{ param }}",
+      "updated": "A Workflow Step is updated with identifier {{ param }}",
+      "deleted": "A Workflow Step is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Workflow Step {{ id }}?"
+      },
+      "detail": {
+        "title": "Workflow Step"
+      },
+      "idF": "Id F",
+      "name": "Name",
+      "description": "Description",
+      "rank": "Rank",
+      "isIntegrationStep": "Is Integration Step",
+      "workflow": "Workflow",
+      "successor": "Successor",
+      "workflowState": "Workflow State"
+    }
+  }
+}

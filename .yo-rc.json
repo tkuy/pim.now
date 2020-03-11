@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "fr.fastmarketeam.pimnow",
+      "nativeLanguage": "fr"
+    },
+    "jhipsterVersion": "6.3.0",
+    "applicationType": "monolith",
+    "baseName": "PIMNOW",
+    "packageName": "fr.fastmarketeam.pimnow",
+    "packageFolder": "fr/fastmarketeam/pimnow",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZTU2ZDFhY2EyYTkwYjc2NTM2M2MxOTNlZWQ3YmQ5ZmY2ZTZmNTIyNmM0ODZmNTQ0NjliMDdmNTQyMDQ5YzY0OTBmZDY3MjNmMTA3ZDdiZjlmZDgxNjNiMGRlODk2NzUzZWRkNjYwNWE3YWNlOThjYTNkZjRjZTYyZWE4OWYzYTU=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "testFrameworks": ["gatling"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": ["fr", "en"],
+    "blueprints": []
+  }
+}

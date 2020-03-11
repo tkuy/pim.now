@@ -1,0 +1,41 @@
+{
+  "pimnowApp": {
+    "mapping": {
+      "error": {
+        "importDouble": "There is a double header in the excel file",
+        "fields": "All fields must be completed",
+        "error": "All left and right columns must be unique. No columns should point into a blank one.",
+        "empty": "You cannot add a mapping without attribute"
+      },
+      "home": {
+        "title": "Mappings",
+        "createLabel": "Create a new mapping",
+        "createOrEditLabel": "Duplicate a mapping",
+        "edit": "Edit a mapping",
+        "info": "Mapping info",
+        "search": "Search for Mapping",
+        "notFound": "No Mappings found"
+      },
+      "created": "A new Mapping is created",
+      "updated": "A Mapping is updated",
+      "deleted": "A Mapping is deleted",
+      "delete": {
+        "question": "Are you sure you want to delete this mapping ?"
+      },
+      "detail": {
+        "title": "Mapping"
+      },
+      "idF": "Functional ID",
+      "name": "Name",
+      "description": "Description",
+      "separator": "Multiple values delimitor",
+      "customer": "Customer",
+      "associations": "Associations",
+      "labelFile": "Header comming from an Excel file",
+      "rootButton": "Choose the attributes",
+      "headerExcel": "Header Excel",
+      "bdd": "Corresponding attribute",
+      "freeAttribute": "Add a free attribute"
+    }
+  }
+}

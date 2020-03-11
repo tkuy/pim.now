@@ -1,0 +1,4 @@
+user_id;authority_name
+1;ROLE_ADMIN
+2;ROLE_ADMIN_FONC
+3;ROLE_USER

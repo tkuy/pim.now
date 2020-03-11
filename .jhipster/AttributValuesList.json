@@ -1,0 +1,30 @@
+{
+    "name": "AttributValuesList",
+    "fields": [],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "attribut",
+            "otherEntityRelationshipName": "attributValuesList",
+            "relationshipName": "attribut",
+            "otherEntityField": "id",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "valuesList",
+            "otherEntityRelationshipName": "attributValuesList",
+            "relationshipName": "valuesList",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20200203102650",
+    "entityTableName": "attribut_values_list",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

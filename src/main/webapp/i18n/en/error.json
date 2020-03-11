@@ -1,0 +1,20 @@
+{
+  "error": {
+    "title": "Error page!",
+    "http": {
+      "400": "Bad request.",
+      "401": "You are not authorized to do this action.",
+      "403": "You are not authorized to access this page.",
+      "404": "The page does not exist.",
+      "405": "The HTTP verb you used is not supported for this URL.",
+      "500": "Internal server error."
+    },
+    "categoryRootIsNotDeletable": "The category root cannot be deleted !",
+    "categorySuccessorStillActive": "The category still possess successor(s) !",
+    "productStillAttachedToCategory": "The category still possess one or more active product(s) !",
+    "concurrencyFailure": "Another user modified this data at the same time as you. Your changes were rejected.",
+    "validation": "Validation error on the server.",
+    "wrongQuery": "The query is invalid, there can be only one query without key",
+    "attributeNotFound": "One of the attributes used in the search queries doesn't exist"
+  }
+}

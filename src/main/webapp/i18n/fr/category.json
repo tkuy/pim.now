@@ -1,0 +1,33 @@
+{
+  "pimnowApp": {
+    "category": {
+      "home": {
+        "title": "Catégories",
+        "createLabel": "Créer une nouvelle catégorie",
+        "editLabel": "Editer la catégorie",
+        "deleteLabel": "Supprimer la catégorie",
+        "search": "Recherche pour Category",
+        "notFound": "Aucune catégorie trouvée"
+      },
+      "created": "La catégorie '{{ param }}' a été créée",
+      "updated": "La catégorie {{ param }} a été mise à jour",
+      "deleted": "Le Category avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Category {{ id }} ?"
+      },
+      "detail": {
+        "title": "Catégories"
+      },
+      "idF": "Id fonctionnel",
+      "nom": "Nom de la categorie",
+      "predecessor": "Predecesseur",
+      "customer": "Customer",
+      "successors": "Seccesseurs",
+      "product": "produit",
+      "categoriesTree": "Arbre des catégories",
+      "actions": "Actions",
+      "noCat": "Aucune catégorie mère selectionnée",
+      "selectCat": "Selectionnez la catégorie mère"
+    }
+  }
+}

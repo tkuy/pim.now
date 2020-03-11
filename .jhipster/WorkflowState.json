@@ -1,0 +1,41 @@
+{
+    "name": "WorkflowState",
+    "fields": [
+        {
+            "fieldName": "state",
+            "fieldType": "EnumWorkflowState",
+            "fieldValues": "IN_PROGRESS,REFUSED",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "failDescription",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "workflowStep",
+            "otherEntityRelationshipName": "workflowState",
+            "relationshipName": "step"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "product",
+            "otherEntityRelationshipName": "workflowState",
+            "relationshipName": "product",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20200203102649",
+    "entityTableName": "workflow_state",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

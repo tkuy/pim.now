@@ -1,0 +1,27 @@
+{
+  "pimnowApp": {
+    "attribut": {
+      "home": {
+        "title": "Attributs",
+        "createLabel": "Créer un nouvel attribut",
+        "createOrEditLabel": "Créer ou éditer un Attribut",
+        "notFound": "Aucun attribut trouvé"
+      },
+      "created": "Un nouvel attribut a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Attribut avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Attribut avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer l'attribut {{ id }} ?"
+      },
+      "detail": {
+        "title": "Attribut"
+      },
+      "idF": "ID fonctionnel",
+      "nom": "Nom de l'attribut",
+      "type": "Type",
+      "customer": "Customer",
+      "family": "Famille",
+      "completeHelper": "Vous devez remplir toutes les informations liées à l'attribut"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "pimnowApp": {
+    "customer": {
+      "home": {
+        "title": "Customers",
+        "createLabel": "Create a new customer",
+        "editLabel": "Edit an existing customer",
+        "consultLabel": "Consult a customer",
+        "search": "Search for Customer",
+        "notFound": "No Customers found"
+      },
+      "confirm": "Add the client",
+      "edit": "Edit the client",
+      "created": "Customer '{{ param }}' has been created",
+      "updated": "Customer '{{ param }}' has been updated",
+      "deleted": "Customer {{ param }} has been deactivate",
+      "delete": {
+        "title": "Customer deactivation",
+        "question": "Are you sure you want to deactivate customer {{ name }} ? <br /> This will result in the deactivation of all users linked to it.",
+        "action": "Deactivate"
+      },
+      "detail": {
+        "title": "Customer"
+      },
+      "idF": "Fonctional Id (Should be removed)",
+      "name": "Name",
+      "description": "Description",
+      "familyRoot": "(Should not be seen - Family Root)",
+      "categoryRoot": "(Should not be seen - Category Root)",
+      "configuration": "(Should not be seen - Configuration)"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "pimnowApp": {
+    "customer": {
+      "home": {
+        "title": "Clients",
+        "createLabel": "Ajouter un nouveau Client",
+        "editLabel": "Éditer un Client",
+        "consultLabel": "Consulter un client",
+        "search": "Recherche un ou des Client",
+        "notFound": "Aucun Client trouvé"
+      },
+      "confirm": "Ajouter le client",
+      "edit": "Modifier le client",
+      "created": "Le client '{{ param }}' a été créé",
+      "updated": "Le Client '{{ param }}' a été mis à jour",
+      "deleted": "Le Client '{{ param }}' a été désactivé",
+      "delete": {
+        "title": "Désactivation d'un client",
+        "question": "Etes-vous certain de vouloir désactiver le client <i>{{ name }}</i> ? <br /> Cela entraînera une désactivation de l'ensemble des utilisateurs rattachés à celui-ci.",
+        "action": "Désactiver"
+      },
+      "detail": {
+        "title": "Client"
+      },
+      "idF": "Id Fonctionnel (A supprimer)",
+      "name": "Nom",
+      "description": "Description",
+      "familyRoot": "(Ne doit pas être affiché - Family)",
+      "categoryRoot": "(Ne doit pas être affiché - Categorie)",
+      "configuration": "(Ne doit pas être affiché - Configuration)"
+    }
+  }
+}

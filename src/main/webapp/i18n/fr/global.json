@@ -1,0 +1,204 @@
+{
+  "global": {
+    "title": "PIMNOW",
+    "tooltip": {
+      "see": "Voir",
+      "edit": "Modifier",
+      "delete": "Supprimer",
+      "deactivate": "Désactiver l'utilisateur",
+      "activate": "Réactiver l'utilisateur",
+      "duplicate": "Dupliquer"
+    },
+    "roles": {
+      "admin": "Administrateur technique",
+      "adf": "Administrateur fonctionnel",
+      "user": "Utilisateur"
+    },
+    "attributTypes": {
+      "number": "Nombre",
+      "text": "Texte",
+      "multiple": "Valeurs multiples",
+      "ressource": "Document"
+    },
+    "browsehappy": "Vous utilisez un <strong>ancien</strong> navigateur. Veuillez <a href=\"http://browsehappy.com/?locale=fr\">mettre à jour votre navigateur</a> pour une meilleure expérience.",
+    "menu": {
+      "sidebar": {
+        "product": "Produit",
+        "customer": "Clients",
+        "productList": "Liste de produits",
+        "addProduct": "Ajouter un produit",
+        "importexport": "Import en masse",
+        "configuration_integration": "Configuration de l'intégration",
+        "templatesList": "Liste des modèles d'import",
+        "categories": "Catégories",
+        "families": "Familles",
+        "ROLE_USER": "Utilisateur",
+        "ROLE_ADMIN": "Administrateur Technique",
+        "ROLE_ADMIN_FONC": "Administrateur Fonctionnel",
+        "users": "Utilisateurs",
+        "hello": "Bonjour {{ fname }} {{lname}}<br />({{rank}})",
+        "prestashop": "Prestashop"
+      },
+      "home": "Accueil",
+      "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
+      "entities": {
+        "main": "Entités",
+        "family": "Family",
+        "attribut": "Attribut",
+        "category": "Category",
+        "product": "Product",
+        "attributValue": "Attribut Value",
+        "userExtra": "User Extra",
+        "customer": "Customer",
+        "workflow": "Workflow",
+        "workflowStep": "Workflow Step",
+        "mapping": "Mapping",
+        "association": "Association",
+        "configurationCustomer": "Configuration Customer",
+        "valuesList": "Values List",
+        "valuesListItem": "Values List Item",
+        "workflowState": "Workflow State",
+        "attributValuesList": "Attribut Values List",
+        "prestashopProduct": "Prestashop Product",
+        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
+      },
+      "account": {
+        "main": "Compte",
+        "settings": "Profil",
+        "password": "Mot de passe",
+        "sessions": "Sessions",
+        "login": "S'authentifier",
+        "logout": "Déconnexion",
+        "register": "Créer un compte"
+      },
+      "admin": {
+        "main": "Administration",
+        "userManagement": "Gestion des utilisateurs",
+        "tracker": "Suivi des utilisateurs",
+        "metrics": "Métriques",
+        "health": "Diagnostics",
+        "configuration": "Configuration",
+        "logs": "Logs",
+        "audits": "Audits",
+        "apidocs": "API",
+        "database": "Base de données",
+        "jhipster-needle-menu-add-admin-element": "JHipster will add additional menu entries here (do not translate!)"
+      },
+      "language": "Langue"
+    },
+    "form": {
+      "username.label": "Nom d'utilisateur",
+      "username.placeholder": "Votre nom d'utilisateur",
+      "currentpassword.label": "Mot de passe actuel",
+      "currentpassword.placeholder": "Mot de passe actuel",
+      "newpassword.label": "Nouveau mot de passe",
+      "newpassword.placeholder": "Nouveau mot de passe",
+      "confirmpassword.label": "Confirmation du nouveau mot de passe",
+      "confirmpassword.placeholder": "Confirmation du nouveau mot de passe",
+      "email.label": "Email",
+      "email.placeholder": "Votre email"
+    },
+    "messages": {
+      "info": {
+        "authenticated": {
+          "prefix": "Si vous voulez vous ",
+          "link": "connecter",
+          "suffix": ", vous pouvez utiliser les comptes par défaut : <br/> - Administrateur (nom d'utilisateur=\"admin\" et mot de passe =\"admin\") <br/> - Utilisateur (nom d'utilisateur=\"user\" et mot de passe =\"user\")."
+        },
+        "register": {
+          "noaccount": "Vous n'avez pas encore de compte ?",
+          "link": "Créer un compte"
+        }
+      },
+      "error": {
+        "dontmatch": "Le nouveau mot de passe et sa confirmation ne sont pas égaux !"
+      },
+      "validate": {
+        "newpassword": {
+          "required": "Votre mot de passe est requis.",
+          "minlength": "Votre mot de passe doit comporter au moins 4 caractères.",
+          "maxlength": "Votre mot de passe ne doit pas comporter plus de 50 caractères.",
+          "strength": "Robustesse du mot de passe :"
+        },
+        "confirmpassword": {
+          "required": "Votre confirmation du mot de passe est requise.",
+          "minlength": "Votre confirmation du mot de passe doit comporter au moins 4 caractères.",
+          "maxlength": "Votre confirmation du mot de passe ne doit pas comporter plus de 50 caractères."
+        },
+        "email": {
+          "required": "Votre email est requis.",
+          "minlength": "Votre email doit comporter au moins 5 caractères.",
+          "maxlength": "Votre email ne doit pas comporter plus de 50 caractères.",
+          "invalid": "Votre email n'est pas valide."
+        }
+      }
+    },
+    "field": {
+      "id": "ID"
+    },
+    "ribbon": {
+      "dev": "Développement"
+    },
+    "item-count": "Affichage {{first}} - {{second}} de {{total}} items."
+  },
+  "entity": {
+    "action": {
+      "addblob": "Ajouter blob",
+      "addimage": "Ajouter image",
+      "back": "Retour",
+      "cancel": "Annuler",
+      "edit": "Editer",
+      "delete": "Supprimer",
+      "open": "Ouvrir",
+      "save": "Sauvegarder",
+      "import": "Importer",
+      "view": "Voir",
+      "duplicate": "Dupliquer",
+      "activate": "Activer",
+      "deactivate": "Désactiver"
+    },
+    "detail": {
+      "field": "Champs",
+      "value": "Valeur"
+    },
+    "delete": {
+      "title": "Confirmation de suppression"
+    },
+    "validation": {
+      "required": "Ce champ est obligatoire.",
+      "minlength": "Ce champ doit faire au minimum {{min}} caractères.",
+      "maxlength": "Ce champ doit faire moins de {{max}} caractères.",
+      "min": "Ce champ doit être supérieur à {{min}}.",
+      "max": "Ce champ doit être inférieur à {{max}}.",
+      "minbytes": "Ce champ doit être supérieur à {{min}} bytes.",
+      "maxbytes": "Ce champ doit être inférieur à {{max}} bytes.",
+      "pattern": "Ce champ doit suivre l'expression régulière {{pattern}}.",
+      "number": "Ce champ doit être un nombre.",
+      "datetimelocal": "Ce champ doit être une date et une heure.",
+      "failedPrestashopUpdate": "Un produit n'a pas pu être mis à jour sur Prestashop.",
+      "failedPrestashopUpdateImage": "Une image d'un produit n'a pas pu être mis à jour sur Prestashop."
+    }
+  },
+  "error": {
+    "internalServerError": "Erreur interne du serveur",
+    "server.not.reachable": "Serveur inaccessible",
+    "url.not.found": "Non trouvé",
+    "NotNull": "Le champ {{fieldName}} ne peut pas être vide !",
+    "Size": "Le champ {{fieldName}} ne respecte pas les critères minimum et maximum !",
+    "userexists": "Login déjà utilisé !",
+    "emailexists": "Email déjà utilisé !",
+    "idexists": "Une nouvelle entité {{entityName}} ne peut pas avoir d'ID !",
+    "idnull": "Invalid ID",
+    "functionalidexists": "L'ID fonctionnel existe déjà !",
+    "customerrequired": "Vous devez être affilié à un client pour réaliser cette action",
+    "nonexistingcustomer": "Vous tentez de désactiver un client qui n'existe pas",
+    "nonexistinguser": "Vous tentez de réactiver un utilisateur qui n'existe pas",
+    "activateuserwithdeactivatecustomer": "Vous ne pouvez pas activer un utilisateur dont le client est désactivé",
+    "required_header_not_found": "Un header requis (ID Fonctionnel, Nom, Description, Famille ou Catégorie) n'est pas présent dans le fichier d'import",
+    "noconfiguration": "Aucune configuration d'intégration paramétrée, veuillez contacter votre administrateur fonctionnel.",
+    "nopriceorstock": "L'attribut prix ou stock n'existe pas. Veuillez contacter votre administrateur fonctionnel.",
+    "alreadyexistingmapping": "Un mapping avec le même identifiant fonctionnel existe déjà.",
+    "alreadyexistingcategory": "Une catégorie avec le même identifiant fonctionnel existe déjà."
+  },
+  "footer": "Ceci est votre pied de page"
+}

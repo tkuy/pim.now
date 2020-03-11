@@ -1,0 +1,27 @@
+{
+  "pimnowApp": {
+    "workflow": {
+      "home": {
+        "title": "Workflows",
+        "createLabel": "Créer un nouveau Workflow",
+        "createOrEditLabel": "Créer ou éditer un Workflow",
+        "search": "Recherche pour Workflow",
+        "notFound": "Aucun Workflow trouvé"
+      },
+      "created": "Un nouveau Workflow a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Workflow avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Workflow avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Workflow {{ id }} ?"
+      },
+      "detail": {
+        "title": "Workflow"
+      },
+      "idF": "Id F",
+      "name": "Name",
+      "description": "Description",
+      "steps": "Steps",
+      "customer": "Customer"
+    }
+  }
+}

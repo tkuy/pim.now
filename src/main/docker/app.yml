@@ -1,0 +1,36 @@
+version: '2'
+services:
+  pimnow-app:
+    image: pimnow
+    environment:
+      - _JAVA_OPTIONS=-Xmx512m -Xms256m
+      - SPRING_PROFILES_ACTIVE=prod,swagger
+      - MANAGEMENT_METRICS_EXPORT_PROMETHEUS_ENABLED=true
+      - JHIPSTER_SLEEP=30 # gives time for other services to boot before the application
+      - BONSAI_URL=http://pimnow-elasticsearch:9200
+      - MY_DATABASE_URL=jdbc:postgresql://pimnow-postgresql:5432/
+      - MY_DATABASE_USERNAME=PIMNOW
+      - MY_DATABASE_PASSWORD=
+      - MAIL_HOST_NAME=smtp.gmail.com
+      - MAIL_USERNAME=PimNowProjectDev@gmail.com
+      - MAIL_PASSWORD=***REMOVED***
+      - MAIL_PORT=587
+      - EUREKA_HOSTNAME=localhost:8080
+      - SERVER_URL=localhost:8080
+      - SFTP_HOST=194.135.81.136
+      - SFTP_HOST_RESOURCE_DIRECTORY=https://pimnow.benjamindinh.fr/files/
+      - SFTP_PORT=4242
+      - SFTP_USER=root
+      - SFTP_PASSWORD=***REMOVED***
+      - SFTP_REMOTE_DIRECTORY=/var/www/pimnow/public_html/files
+      - PORT=8080
+    ports:
+      - 8080:8080
+  pimnow-postgresql:
+    extends:
+      file: postgresql.yml
+      service: pimnow-postgresql
+  pimnow-elasticsearch:
+    extends:
+      file: elasticsearch.yml
+      service: pimnow-elasticsearch

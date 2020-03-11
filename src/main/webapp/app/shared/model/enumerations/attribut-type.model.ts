@@ -1,0 +1,7 @@
+export const enum AttributType {
+  TEXT = 'TEXT',
+  RESSOURCE = 'RESSOURCE',
+  VALUES_LIST = 'VALUES_LIST',
+  MULTIPLE_VALUE = 'MULTIPLE_VALUE',
+  NUMBER = 'NUMBER'
+}

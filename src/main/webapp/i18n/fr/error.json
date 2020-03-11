@@ -1,0 +1,23 @@
+{
+  "error": {
+    "title": "Page d'erreur !",
+    "http": {
+      "400": "Mauvaise requête.",
+      "401": "Vous n'avez pas les droits pour effectuer cette action.",
+      "403": "Vous n'avez pas les droits pour accéder à cette page.",
+      "404": "La page n'existe pas.",
+      "405": "Le verbe HTTP que vous avez utilisé n'est pas reconnu par cet URL.",
+      "500": "Erreur interne du serveur."
+    },
+    "categoryRootIsNotDeletable": "La categorie racine ne peut pas être supprimée !",
+    "categorySuccessorStillActive": "La categorie possède encore un ou des successeur(s) actif(s) !",
+    "productStillAttachedToCategory": "La Categorie possède encore un ou des produits(s) actif(s) !",
+    "concurrencyFailure": "Un autre utilisateur a modifié ces données en même temps que vous. Vos changements n'ont pas été sauvegardés.",
+    "familyRootIsNotDeletable": "La famille racine ne peut pas être supprimée !",
+    "successorStillActive": "La famille possède encore un ou des successeur(s) actif(s) !",
+    "productStillAttached": "La famille possède encore un ou des produits(s) actif(s) !",
+    "validation": "Erreur de validation côté serveur.",
+    "wrongQuery": "La requête entrée est invalide, il ne peut y avoir qu'une requete sans clé",
+    "attributeNotFound": "Un des attributs utilisé dans la recherche n'existe pas"
+  }
+}

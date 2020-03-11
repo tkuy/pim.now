@@ -1,0 +1,52 @@
+{
+  "pimnowApp": {
+    "familyVM": {
+      "idF": "ID fonctionnel",
+      "attributes": "attributs"
+    },
+    "family": {
+      "attributesTable": {
+        "idf": "ID Fonctionnel",
+        "name": "Nom",
+        "type": "Type"
+      },
+      "home": {
+        "tree": "Arbre des familles",
+        "attributes": "Attributs de la famille",
+        "title": "Familles",
+        "createLabel": "Créer une nouvelle famille",
+        "editLabel": "Modifier une famille",
+        "deleteLabel": "Supprimer la famille",
+        "currentAttributs": "Attributs de la famille",
+        "addExistingAttributs": "Ajouter des attributs existants",
+        "addNewAttributs": "Créer des attributs",
+        "selectionParent": "Selection de la famille parent",
+        "treeFamily": "L'arborescence des familles"
+      },
+      "created": "La famille {{ param }} a été créée",
+      "updated": "La famille {{ param }} a été mise à jour",
+      "deleted": "La famille {{ param }} a été supprimée",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer la famille {{ name }} ?"
+      },
+      "detail": {
+        "title": "Famille"
+      },
+      "idF": "ID fonctionnel",
+      "nom": "Nom",
+      "family": "Famille",
+      "successors": "Successors",
+      "predecessor": "Predecessor",
+      "customer": "Customer",
+      "attribute": "Attribute",
+      "attributechoice": "Choix de l'attribut",
+      "error": {
+        "functionalidexists": "L'ID fonctionnel est déjà pris par une autre famille !",
+        "customerrequired": "Vous devez être affilié à un client pour réaliser cette action"
+      },
+      "familyAnotherChoice": "Choisir une autre famille",
+      "familyChoiceValidation": "Choisir cette famille",
+      "addAttributs": "Ajouter des attributs"
+    }
+  }
+}

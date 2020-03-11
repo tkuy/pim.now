@@ -1,0 +1,40 @@
+{
+  "userManagement": {
+    "home": {
+      "title": "Utilisateurs",
+      "createLabel": "Créer un nouvel utilisateur",
+      "editLabel": "Éditer un utilisateur"
+    },
+    "created": "L'utilisateur {{ param }} a été créé.",
+    "updated": "L'utilisateur {{ param }} a été mis à jour.",
+    "deleted": "L'utilisateur {{ param }} a été désactivé.",
+    "delete": {
+      "question": "Etes-vous certain de vouloir désactiver l'utilisateur {{ login }} ?",
+      "title": "Confirmation de désactivation de compte"
+    },
+    "activate": {
+      "question": "Etes-vous certain de vouloir activer l'utilisateur {{ login }} ?",
+      "title": "Confirmation d'activation de compte",
+      "response": "L'utilisateur a été activé"
+    },
+    "detail": {
+      "title": "Utilisateur"
+    },
+    "login": "Login",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "email": "Email",
+    "activated": "Activé",
+    "deactivated": "Désactivé",
+    "profiles": "Droits *",
+    "profiles.table": "Droits",
+    "langKey": "Langue *",
+    "langKey.table": "Langue",
+    "createdBy": "Créé par",
+    "createdDate": "Créé le",
+    "lastModifiedBy": "Modifié par",
+    "lastModifiedDate": "Modifié le",
+    "customer": "Entreprise *",
+    "customer.table": "Entreprise"
+  }
+}

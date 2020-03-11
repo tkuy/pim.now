@@ -1,0 +1,67 @@
+{
+  "pimnowApp": {
+    "productVM": {
+      "idF": "ID fonctionnel"
+    },
+    "product": {
+      "home": {
+        "title": "Produits",
+        "createLabel": "Créer un nouveau produit",
+        "editLabel": "Éditer un produit",
+        "editProduct": "Modifier le produit",
+        "search": "Recherche d'un produit",
+        "notFound": "Aucun produit trouvé",
+        "seeCategories": "Voir les catégories",
+        "integrationTitle": "Gestion de l'intégration",
+        "removeIntegrateSelection": "Supprimer la sélection de Prestashop",
+        "integrateSelection": "Intégrer la sélection vers Prestashop",
+        "exportSelection": "Exporter la sélection",
+        "cannotIntegrate": "Veuillez intégrer 30 produits maximum en même temps",
+        "cannotIntegrateSupp": "Veuillez supprimer 30 produits maximum en même temps"
+      },
+      "export": {
+        "title": "Exporter une sélection de produits",
+        "numberProducts": "Nombre de produits à exporter : {{ number }}",
+        "mapping": "Modèle d'export *",
+        "submit": "Exporter",
+        "cancel": "Annuler",
+        "success": "L'export a été réalisé",
+        "waiting": {
+          "title": "Export des produits en cours...",
+          "content": "Ne quittez pas cette page, l'export des produits est en cours de réalisation. Veuillez patienter..."
+        }
+      },
+      "created": "Le nouveau produit {{ param }} a été créé",
+      "updated": "Le produit {{ param }} a été mis à jour",
+      "deleted": "Le produit {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le produit {{ nom }} ?"
+      },
+      "detail": {
+        "title": "produit"
+      },
+      "idF": "ID fonctionnel",
+      "detail": "Détail d'un produit",
+      "nom": "Nom",
+      "description": "Description",
+      "family": "Famille",
+      "families": "Familles",
+      "category": "Catégorie",
+      "categories": "Catégorie(s)",
+      "informationsFamily": "Informations liées à la famille",
+      "selectionWorkflows": "Workflows",
+      "addWorkflowHelper": "Ajoutez les workflows dans lesquels ce produit va passer",
+      "familyAnotherChoice": "Choisir une autre famille",
+      "familyChoiceValidation": "Choisir cette famille",
+      "categoryChoice": "Choisir cette catégorie",
+      "importHelper": "Les fichiers supportés ont comme extension .jpg, .jpeg, .png, .pdf, .xlsx",
+      "add": "Ajouter",
+      "invalidNumberFormat": "La valeur n'est pas un nombre",
+      "selectAll": "Sélectionner tout",
+      "deselectAll": "Déselectionner tout",
+      "numberProduct": "Nombre de produits sélectionnés : {{ number }}",
+      "features": "Caractéristiques du produit",
+      "searchHelper": "Recherche simple sur l'id fonctionnel, le nom, la description, le nom de famille et la catégorie. Pour faire une recherche complexe, definissez vos critères sous la forme 'nom de l'attribut=valeur de l'attribut'. Chaque critères doivent être séparés par un point virgule."
+    }
+  }
+}

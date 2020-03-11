@@ -1,0 +1,14 @@
+{
+    "name": "ConfigurationCustomer",
+    "fields": [],
+    "relationships": [],
+    "changelogDate": "20200203102646",
+    "entityTableName": "configuration_customer",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

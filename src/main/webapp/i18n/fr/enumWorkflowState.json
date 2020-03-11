@@ -1,0 +1,9 @@
+{
+  "pimnowApp": {
+    "EnumWorkflowState": {
+      "null": "",
+      "IN_PROGRESS": "IN_PROGRESS",
+      "REFUSED": "REFUSED"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "pimnowApp": {
+    "workflowState": {
+      "home": {
+        "title": "WorkflowStates",
+        "createLabel": "Créer un nouveau Workflow State",
+        "createOrEditLabel": "Créer ou éditer un Workflow State",
+        "search": "Recherche pour Workflow State",
+        "notFound": "Aucun Workflow State trouvé"
+      },
+      "created": "Un nouveau Workflow State a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Workflow State avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Workflow State avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Workflow State {{ id }} ?"
+      },
+      "detail": {
+        "title": "Workflow State"
+      },
+      "state": "State",
+      "failDescription": "Fail Description",
+      "step": "Step",
+      "product": "Product"
+    }
+  }
+}
