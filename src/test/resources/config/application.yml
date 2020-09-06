@@ -124,6 +124,6 @@ sftp:
   port: 4242
   user: root
   #  privateKey:
-  password: ***REMOVED***
+  password:
   remote:
     directory: /home/pimnow/store
