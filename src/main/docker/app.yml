@@ -13,7 +13,7 @@ services:
       - MY_DATABASE_PASSWORD=
       - MAIL_HOST_NAME=smtp.gmail.com
       - MAIL_USERNAME=PimNowProjectDev@gmail.com
-      - MAIL_PASSWORD=***REMOVED***
+      - MAIL_PASSWORD=
       - MAIL_PORT=587
       - EUREKA_HOSTNAME=localhost:8080
       - SERVER_URL=localhost:8080
@@ -21,7 +21,7 @@ services:
       - SFTP_HOST_RESOURCE_DIRECTORY=https://pimnow.benjamindinh.fr/files/
       - SFTP_PORT=4242
       - SFTP_USER=root
-      - SFTP_PASSWORD=***REMOVED***
+      - SFTP_PASSWORD=
       - SFTP_REMOTE_DIRECTORY=/var/www/pimnow/public_html/files
       - PORT=8080
     ports:
